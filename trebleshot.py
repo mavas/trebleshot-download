@@ -63,7 +63,8 @@ def main():
 
     By the time this function is called, the TrebleShot program on your phone
     should be currently open, and you should have the files selected for
-    sharing, and the Web Share functionality operating."""
+    sharing, and the Web Share functionality operating.
+    """
     soup = get_the_content()
 
     images = _select_the_images(soup)
